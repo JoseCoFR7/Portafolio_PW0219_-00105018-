@@ -27,6 +27,10 @@ button.btn {
     opacity: 0.8;
     text-transform: uppercase;
 }
+button.btn:hover{
+    opacity: 1.0;
+
+}
     /*
         Sección Tamaños
         
@@ -67,7 +71,7 @@ button.btn.sky {
 
 button.btn.purple {
     background-color: #673AB7;
-    color: white;
+    color: white;0
 }
     /*
         Sección Bordes
