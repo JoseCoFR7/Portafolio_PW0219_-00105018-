@@ -1,0 +1,91 @@
+body{
+    background-image:url('https://wallpapersite.com/images/pages/pic_w/5505.jpg');
+}
+#botones.grid-container{
+
+    justify-content: flex-end;
+    
+}
+.btn{
+    border-left-color: solid rgba(0,0,0,0.5) 1px solid;
+    border-left-color: transparent;
+    border-radius: 0.3em;
+    box-shadow: none;
+    padding: 1em;
+    opacity: 0.8;
+
+}
+.btn.blue{
+    background-color: #0d47a1;
+    color: white;
+
+}
+.btn.black{
+    background-color: black;
+    color: white;
+}
+.btn.purple{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.btn.cu{
+    background-color: grey;
+    color: white;
+
+}
+
+.btn.h{
+    background-color:grey;
+    color: white;  
+
+}
+
+
+
+.img:hover
+{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.btn.h:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.btn.cu:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+hr {
+    height: 10px;
+    width: 70%;
+    background-color:grey;
+    border-color: grey;
+  }
+
+#example2>img{
+    width: 9em;
+    margin: 0.5em;
+    border-radius: 100%;
+}
+
+#example2{
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px transparent;
+}
+
+
+#titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px;
+    
+}
