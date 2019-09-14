@@ -1,0 +1,52 @@
+@mixin flex-direction($direction-display,$direction){
+    display: $direction-display;
+    flex-direction:$direction ;
+}
+
+@mixin flex-btn($btn-display, $btn-flex, $btn-justify, $btn-align, $btn-padright, $btn-padtop){
+    display:$btn-display;
+    flex: $btn-flex;
+    justify-content: $btn-justify;
+    align-items: $btn-align;
+    padding-right: $btn-padright;
+    padding-top: $btn-padtop;
+}
+
+@mixin btn-spcs($btn-border, $btn-radius, $btn-shadow, $btn-padding, $btn-opa, $btn-margin){
+    border: $btn-border;
+    border-radius: $btn-radius;
+    box-shadow: $btn-shadow;
+    padding: $btn-padding;
+    opacity: $btn-opa;
+    margin: $btn-margin;
+}
+
+@mixin under($display-under,$Flex-under,$JC-under, $AI-under,$PA-under){
+    display: $display-under;
+    flex: $Flex-under;
+    justify-content: $JC-under;
+    align-items: $AI-under;
+    padding: $PA-under;
+}
+
+@mixin hr($hr-height, $hr-width, $hr-bgcolor,$hr-bordercolor ){
+    height: $hr-height;
+    width: $hr-width;
+    background-color:$hr-bgcolor;
+    border-color: $hr-bordercolor;
+}
+
+@mixin images($image-flex, $image-flow, $image-JC, $image-border){
+    display: $image-flex;
+    flex-flow : $image-flow;
+    justify-content: $image-JC;
+    border: $image-border;
+}
+
+@mixin titulo($titulo-flex, $titulo-flow, $titulo-JC, $titulo-border){
+    display: $titulo-flex;
+    flex-flow: $titulo-flow;
+    justify-content: $titulo-JC;
+    border: $titulo-border; 
+    
+}

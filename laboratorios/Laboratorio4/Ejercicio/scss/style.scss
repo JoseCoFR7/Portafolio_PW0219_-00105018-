@@ -1,0 +1,78 @@
+@import "components/mixin";
+@import "components/variables";
+
+
+body{
+    background-image: $bg-img;
+    background-size: $bg-size;
+}
+
+.contenedor{
+    width: $cont-width;
+    height: $cont-height;
+    margin: $cont-margin;
+    padding: $cont-padding;
+    
+    @include flex-direction(flex,colummn)
+}
+
+.botones{
+    @include flex-btn(flex, 1 0 0px, flex-end, flex-start, 40px, 10px)
+}
+
+.btn{
+    @include btn-spcs(1px transparent solid, 0.3em, none, 0.5em, 1.0, 5px)
+}
+
+.btn.purple{
+    background-color: blueviolet;
+    color: $btn-color;
+}
+
+.btn.blue{
+    background-color: #0d47a1;
+    color: $btn-color;
+}
+
+.btn.red{
+    background-color: red;
+    color: $btn-color;
+}
+
+.btn:hover{
+    opacity: 0.3;
+}
+
+.btn.d{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.under{
+    @include under(flex, 1 0 0px, space-between, flex-end, 0 40px 20px 40px);
+}
+
+
+.img:hover{
+    opacity: $opacityhover;
+    filter: $filterhover;
+}
+
+hr{
+    @include hr(10px, 70%, grey, grey)
+}
+
+#images>img{
+    width: $img-width;
+    margin: $img-margin;
+    border-radius:$img-border-radius ;
+}
+
+#images{
+    @include images(flex, row wrap, center, 2px transparent)
+}
+
+#titulo{
+    @include titulo(flex, row wrap, center, 5px)
+}
